@@ -1,10 +1,3 @@
-<?php
-    require_once $_SERVER['DOCUMENT_ROOT']."/php/db.php";
-    if( !R::testConnection())
-    {
-        exit('Not connection to database');
-    }
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
